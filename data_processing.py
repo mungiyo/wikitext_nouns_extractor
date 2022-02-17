@@ -61,6 +61,5 @@ if __name__ == "__main__":
                 executor.map(text_processing, tqdm(chunked_segment))
             processed_line += len(segment)
             print(f"현재 처리된 라인 수 : {processed_line}")
-            print(f"1GB 처리 소요 시간 : {time.time() - s_time} sec")
 
         print(f"총 소요 시간 : {time.time() - start_time} sec")
