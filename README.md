@@ -3,8 +3,8 @@
 wiki_extractor를 통해 위키 텍스트 데이터를 추출한 파일에서 line 당 명사를 추출하는 스크립트입니다.
 
 ## Preprocessing
-WikiExtractor를 이용하여 Row Data를 전처리한 후 사용.
-- [Row Data](https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2)
+WikiExtractor를 이용하여 Raw Data를 전처리한 후 사용.
+- [Raw Data](https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2)
 - [WikiExtractor](https://github.com/attardi/wikiextractor.git)
 
 ## How it work
